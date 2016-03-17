@@ -1,3 +1,4 @@
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\obj\Debug\LMS.Web.csprojResolveAssemblyReference.cache
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\bin\LMS.Web.dll.config
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\bin\LMS.Web.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\bin\LMS.Web.pdb
@@ -85,6 +86,5 @@ V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\bin\ko\System.Spatial.resources.d
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\bin\ru\System.Spatial.resources.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\bin\zh-Hans\System.Spatial.resources.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\bin\zh-Hant\System.Spatial.resources.dll
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\obj\Debug\LMS.Web.csprojResolveAssemblyReference.cache
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\obj\Debug\LMS.Web.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web\obj\Debug\LMS.Web.pdb

@@ -1,9 +1,5 @@
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\bin\Debug\LMS.Domain.IntegrationTests.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\bin\Debug\LMS.Domain.IntegrationTests.pdb
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\bin\Debug\LMS.Domain.dll
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\bin\Debug\EntityFramework.dll
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\bin\Debug\LMS.Domain.pdb
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\bin\Debug\EntityFramework.xml
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\obj\Debug\LMS.Domain.IntegrationTests.csprojResolveAssemblyReference.cache
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\obj\Debug\LMS.Domain.IntegrationTests.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.IntegrationTests\obj\Debug\LMS.Domain.IntegrationTests.pdb

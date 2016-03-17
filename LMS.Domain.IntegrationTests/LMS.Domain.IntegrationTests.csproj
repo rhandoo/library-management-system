@@ -56,12 +56,6 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\LMS.Domain\LMS.Domain.csproj">
-      <Project>{345891c9-f12e-4f0b-a862-126ea5db714d}</Project>
-      <Name>LMS.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

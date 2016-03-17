@@ -333,7 +333,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\LMS.Domain\LMS.Domain.csproj">
+    <ProjectReference Include="..\LMS.Domain\LMS.Domain.csproj">
       <Project>{345891c9-f12e-4f0b-a862-126ea5db714d}</Project>
       <Name>LMS.Domain</Name>
     </ProjectReference>
