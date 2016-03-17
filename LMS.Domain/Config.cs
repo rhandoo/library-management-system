@@ -12,7 +12,7 @@ namespace LMS.Domain
 
         public static string GetDatabaseConnectionString()
         {
-            ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings[1];
+            ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings.Count == 1 ? ConfigurationManager.ConnectionStrings[0] : ConfigurationManager.ConnectionStrings[1];
 
             return settings.ConnectionString;
         }

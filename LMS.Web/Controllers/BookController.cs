@@ -33,9 +33,9 @@ namespace LMS.Web.Controllers
         }
 
         [HttpGet]
-        public HttpResponseMessage Get(string isbnCode, string author, string title)
+        public HttpResponseMessage Get(string isbnCode, string title, string genre, string author)
         {
-            var data = _lmsSearchDtoBuilder.GetBooks(_bookRepository.GetBooks(isbnCode, author, title));
+            var data = _lmsSearchDtoBuilder.GetBooks(_bookRepository.GetBooks(isbnCode, title, genre, author));
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 

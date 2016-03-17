@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using Ninject;
 using LMS.Web.Models;
+using LMS.Domain.Entities;
 
 namespace LMS.Web.Controllers.ModelBuilders
 {
@@ -21,7 +22,7 @@ namespace LMS.Web.Controllers.ModelBuilders
         }
 
 
-        public IList<BookDto> GetBooks(IList<Domain.Entities.Book> books)
+        public IList<BookDto> GetBooks(IList<Book> books)
         {
             var booksDto = new List<BookDto>(); 
 

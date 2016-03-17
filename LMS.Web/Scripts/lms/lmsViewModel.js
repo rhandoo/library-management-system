@@ -7,12 +7,13 @@ function lmsViewModel() {
     self.title = ko.observable('');
     self.author = ko.observable('');
     self.isbn = ko.observable('');
+    self.genre = ko.observable('');
     self.bookDetails = ko.observable();
 
     self.loadBooks = function () {
         //To load existing books
         $.ajax({
-            url: bookApiUrl + "Get?" + "isbnCode=" + self.isbn() + "&author=" + self.author() + "&title=" + self.title(),
+            url: bookApiUrl + "Get?" + "isbnCode=" + self.isbn() + "&title=" + self.title() + "&genre=" + self.genre() + "&author=" + self.author(),
             dataType: "json",
             contentType: "application/json",
             cache: false,
@@ -35,7 +36,7 @@ function lmsViewModel() {
         var rowdata = ko.utils.arrayFirst(self.books(), function (item) {
             return item.bookId === bookId;
         });
-   
+
         self.bookDetails(new Book(rowdata));
         self.books(null);
     };

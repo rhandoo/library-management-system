@@ -8,7 +8,7 @@ namespace LMS.Domain.Repositories
 {
     public interface IBookRepository
     {
-        IList<Book> GetBooks(string isbnCode, string author, string title);
+        IList<Book> GetBooks(string isbnCode, string title, string genre, string author);
         Book GetBook(int bookId);
     }
 }

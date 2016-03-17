@@ -11,15 +11,15 @@ namespace LMS.Domain
 {
     public class LmsDbContext : DbContext
     {
-        public IDbSet<Book> Book { get; set; }
+        public virtual IDbSet<Book> Book { get; set; }
 
-        public IDbSet<Stock> Stock { get; set; }
+        public virtual IDbSet<Stock> Stock { get; set; }
 
-        public IDbSet<Author> Author { get; set; }
+        public virtual  IDbSet<Author> Author { get; set; }
 
-        public IDbSet<Genre> Genre { get; set; }
+        public virtual IDbSet<Genre> Genre { get; set; }
 
-        public IDbSet<Issue> Issue { get; set; }
+        public virtual IDbSet<Issue> Issue { get; set; }
 
 
         public LmsDbContext()

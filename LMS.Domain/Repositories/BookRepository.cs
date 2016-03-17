@@ -11,7 +11,7 @@ namespace LMS.Domain.Repositories
 {
     public class BookRepository : IBookRepository
     {
-        public IList<Book> GetBooks(string isbnCode, string author, string title)
+        public IList<Book> GetBooks(string isbnCode, string title, string genre, string author)
         {
             var books = (from a in DbContext().Book
                                 .Include(y => y.Author)
@@ -23,14 +23,19 @@ namespace LMS.Domain.Repositories
                 books = books.Where(b => b.ISBNCode == isbnCode);
             }
 
+            if (!String.IsNullOrEmpty(title))
+            {
+                books = books.Where(b => b.Title == title);
+            }
+
             if (!String.IsNullOrEmpty(author))
             {
                 books = books.Where(b => b.Author.Name == author);
             }
 
-            if (!String.IsNullOrEmpty(title))
+            if (!String.IsNullOrEmpty(genre))
             {
-                books = books.Where(b => b.Title == title);
+                books = books.Where(b => b.Genre.Type == genre);
             }
 
             return books.OrderByDescending(x => x.Title).ToList();
