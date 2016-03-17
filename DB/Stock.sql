@@ -1,0 +1,20 @@
+CREATE TABLE [dbo].[Stock]
+(
+      [Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
+      [BookId] INT NOT NULL,
+      [Status] INT NOT NULL,
+      [IssueId] INT NULL
+);
+ALTER TABLE Stock
+ADD CONSTRAINT FK_Stock_Book FOREIGN KEY (BookId) 
+    REFERENCES Book (Id) 
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
+;
+
+ALTER TABLE Stock
+ADD CONSTRAINT FK_Stock_Issue FOREIGN KEY (IssueId) 
+    REFERENCES Issue (Id) 
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
+;

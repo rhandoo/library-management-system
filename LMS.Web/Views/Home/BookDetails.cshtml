@@ -1,0 +1,31 @@
+﻿<table data-bind="with: bookDetails()">
+    <tr>
+        <td>Title:</td>
+        <td><label data-bind="text:title "></label></td>
+    </tr>
+    <tr>
+        <td>ISBNCode:</td>
+        <td><label data-bind="text:isbnCode "></label></td>
+    </tr>
+    <tr>
+        <td>Author:</td>
+        <td><label data-bind="text:author "></label></td>
+    </tr>
+
+    <tr>
+        <td>StockStatus:</td>
+        <td><label>StockStatus</label></td>
+    </tr>
+    <tr>
+        @* button will be visible only when the book is inStock  *@
+        <td><input type="button" value="Issue" id="btnIssue" ></td>
+        @* button will be visible only when the item is onLoad *@
+        <td><input type="button" value="Return" id="btnReceipt"></td>
+        <td><input type="button" value="Back" id="btnClose" data-bind="click: function(){$parent.BackToMainView()} "></td>
+    </tr>
+</table>
+
+@* view will be visible only when the book is inStock *@
+<div  style="display:none">
+    @{Html.RenderPartial("~/Views/Home/IssueBook.cshtml");}
+</div>

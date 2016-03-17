@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[Issue]
+(
+   [Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+   [IssuedTo] NVARCHAR(100) NOT NULL, 
+   [Comments] NVARCHAR(500) NOT NULL,
+   [IssueDate] DATETIME NOT NULL
+);

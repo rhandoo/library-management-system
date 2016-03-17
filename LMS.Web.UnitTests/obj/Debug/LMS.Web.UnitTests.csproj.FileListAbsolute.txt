@@ -1,0 +1,5 @@
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\LMS.Web.UnitTests.dll
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\LMS.Web.UnitTests.pdb
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.dll
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.pdb
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.csprojResolveAssemblyReference.cache

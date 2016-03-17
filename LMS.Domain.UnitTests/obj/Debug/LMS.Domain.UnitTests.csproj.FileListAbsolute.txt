@@ -1,0 +1,9 @@
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\bin\Debug\LMS.Domain.UnitTests.dll
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\bin\Debug\LMS.Domain.UnitTests.pdb
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\bin\Debug\LMS.Domain.dll
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\bin\Debug\EntityFramework.dll
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\bin\Debug\LMS.Domain.pdb
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\bin\Debug\EntityFramework.xml
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\obj\Debug\LMS.Domain.UnitTests.csprojResolveAssemblyReference.cache
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\obj\Debug\LMS.Domain.UnitTests.dll
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain.UnitTests\obj\Debug\LMS.Domain.UnitTests.pdb
