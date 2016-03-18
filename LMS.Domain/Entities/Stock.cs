@@ -17,7 +17,7 @@ namespace LMS.Domain.Entities
 
         public Issue Issue { get; set; }
 
-        public int IssueId { get; set; }
+        public int? IssueId { get; set; }
 
         public int BookId { get; set; }
     }

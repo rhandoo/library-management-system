@@ -14,18 +14,31 @@
 
     <tr>
         <td>StockStatus:</td>
-        <td><label>StockStatus</label></td>
+        <td><label data-bind="text:$parent.stockstatus "></label></td>
+    </tr>
+</table>
+
+<table data-bind="with:bookIssueDetails(), visible:bookIssueDetails()">
+    <tr>
+        <td>Friend's Name:</td>
+        <td><input type="text" data-bind="value:issuedTo,enable:false "></td>
     </tr>
     <tr>
-        @* button will be visible only when the book is inStock  *@
-        <td><input type="button" value="Issue" id="btnIssue" ></td>
-        @* button will be visible only when the item is onLoad *@
-        <td><input type="button" value="Return" id="btnReceipt"></td>
+        <td>Comments:</td>
+        <td><textarea id="txtMessage" data-bind="value:comments,enable:false "></textarea></td>
+    </tr>
+    <tr>
+        <td>IssueDate:</td>
+        <td><label data-bind="text:issueDate "></label></td>
+    </tr>
+</table>
+<table data-bind="with: bookDetails()">
+    <tr>
+
+
+        <td><input type="button" value="Deposit" id="btnReceipt" data-bind="visible:$parent.isBookIssued"></td>
+        <td><input type="button" value="Issue" id="btnIssue" data-bind="visible:!$parent.isBookIssued()"></td>
         <td><input type="button" value="Back" id="btnClose" data-bind="click: function(){$parent.BackToMainView()} "></td>
     </tr>
 </table>
 
-@* view will be visible only when the book is inStock *@
-<div  style="display:none">
-    @{Html.RenderPartial("~/Views/Home/IssueBook.cshtml");}
-</div>

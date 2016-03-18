@@ -12,3 +12,4 @@ V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain\bin\Debug\LMS.Domain.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain\bin\Debug\LMS.Domain.pdb
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain\obj\Debug\LMS.Domain.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain\obj\Debug\LMS.Domain.pdb
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Domain\obj\Debug\LMS.Domain.csprojResolveAssemblyReference.cache
