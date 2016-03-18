@@ -41,14 +41,12 @@ namespace LMS.Web.Controllers
         [HttpPost]
         public HttpResponseMessage Issue(int stockId, string issuedTo, string comments)
         {
-            ////var data = _stockDtoBuilder.Build(_stockRepository.GetBookStock(bookId));
-            return Request.CreateResponse(HttpStatusCode.OK);
+             return Request.CreateResponse(HttpStatusCode.OK);
         }
 
         [HttpPut]
-        public HttpResponseMessage Issue(int stockId)
+        public HttpResponseMessage Deposit(int stockId)
         {
-            ////var data = _stockDtoBuilder.Build(_stockRepository.GetBookStock(bookId));
             return Request.CreateResponse(HttpStatusCode.OK);
         }
     }
