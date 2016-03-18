@@ -9,6 +9,7 @@ function lmsViewModel() {
     self.isbn = ko.observable('');
     self.genre = ko.observable('');
     self.bookDetails = ko.observable();
+    self.bookDetailsViewModel = ko.observable();
 
     self.loadBooks = function () {
         //To load existing books
@@ -39,6 +40,9 @@ function lmsViewModel() {
 
         self.bookDetails(new Book(rowdata));
         self.books(null);
+        self.bookDetailsViewModel(new bookDetailsViewModel());
+        self.bookDetailsViewModel().loadBookDetails(bookId);
+
     };
 
     self.loadBooks();

@@ -38,7 +38,5 @@ namespace LMS.Web.Controllers
             var data = _lmsSearchDtoBuilder.GetBooks(_bookRepository.GetBooks(isbnCode, title, genre, author));
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
-
-
     }
 }

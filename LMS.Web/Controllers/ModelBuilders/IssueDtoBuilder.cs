@@ -11,7 +11,15 @@ namespace LMS.Web.Controllers.ModelBuilders
     {
         public IssueDto Build(Issue issue)
         {
-            throw new NotImplementedException();
+            var issueDto = new IssueDto();
+            if (issue != null)
+            {
+                issueDto.comments = issue.Comments;
+                issueDto.IssueDate = issue.IssueDate;
+                issueDto.IssuedTo = issue.IssuedTo;
+            }
+
+            return issueDto;
         }
     }
 }

@@ -39,8 +39,8 @@ namespace LMS.Domain
             modelBuilder.Configurations.Add(new AuthorMap());
             modelBuilder.Configurations.Add(new BookMap());
             modelBuilder.Configurations.Add(new GenreMap());
-            ////modelBuilder.Configurations.Add(new IssueMap());
-            ////modelBuilder.Configurations.Add(new StockMap());
+            modelBuilder.Configurations.Add(new IssueMap());
+            modelBuilder.Configurations.Add(new StockMap());
 
             base.OnModelCreating(modelBuilder);
         }

@@ -11,8 +11,14 @@ namespace LMS.Domain.Entities
 
         public Book Book { get; set; }
 
-        public StockStatus Status { get; set; }
+        public int StatusId { get; set; }
+
+        public StockStatus Status { get { return StatusId == 1 ? StockStatus.InStock : StockStatus.Issued; } }
 
         public Issue Issue { get; set; }
+
+        public int IssueId { get; set; }
+
+        public int BookId { get; set; }
     }
 }

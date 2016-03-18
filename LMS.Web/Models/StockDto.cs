@@ -10,6 +10,8 @@ namespace LMS.Web.Models
         public BookDto BookDto { get; set; }
         
         public string StockStatus { get; set; }
+
+        public bool IsIssued { get; set; }
         
         public IssueDto IssueDto { get; set; }
     }

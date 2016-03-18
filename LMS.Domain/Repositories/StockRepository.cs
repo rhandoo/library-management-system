@@ -13,7 +13,7 @@ namespace LMS.Domain.Repositories
     {
         public Stock GetBookStock(int bookId)
         {
-            return DbContext().Stock.Single(b => b.Book.Id == bookId);
+            return DbContext().Stock.Include(x => x.Book).Include(x => x.Book.Author).Include(x => x.Book.Genre).Include(y => y.Issue).Single(b => b.Book.Id == bookId);
         }
 
 

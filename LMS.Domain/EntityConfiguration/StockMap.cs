@@ -12,6 +12,10 @@ namespace LMS.Domain.EntityConfiguration
         {
             HasKey(i => i.Id);
             ToTable("dbo.Stock");
+            HasRequired(x => x.Issue).WithMany().HasForeignKey(y => y.IssueId);
+            HasRequired(x => x.Book).WithMany().HasForeignKey(y => y.BookId);
+            Property(x => x.StatusId).HasColumnName("Status");
+            Ignore(x => x.Status);
         }
     }
 }

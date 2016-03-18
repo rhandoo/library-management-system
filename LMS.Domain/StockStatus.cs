@@ -6,7 +6,7 @@ using System.ComponentModel;
 
 namespace LMS.Domain
 {
-    public enum StockStatus : int
+    public enum StockStatus
     {
         [Description("OnShelf")]
         InStock = 1,

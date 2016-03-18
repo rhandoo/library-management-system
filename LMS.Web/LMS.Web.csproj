@@ -204,6 +204,7 @@
     <Compile Include="Controllers\ModelBuilders\IStockDtoBuilder.cs" />
     <Compile Include="Controllers\ModelBuilders\LmsSearchDtoBuilder.cs" />
     <Compile Include="Controllers\ModelBuilders\StockDtoBuilder.cs" />
+    <Compile Include="Controllers\StockController.cs" />
     <Compile Include="ExceptionHandling\TraceLog.cs" />
     <Compile Include="Filters\LMSDbContextFilterAttribute.cs" />
     <Compile Include="Filters\ModelValidationActionFilter.cs" />

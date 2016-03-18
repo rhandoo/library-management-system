@@ -1,9 +1,6 @@
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\LMS.Web.UnitTests.dll.config
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\LMS.Web.UnitTests.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\LMS.Web.UnitTests.pdb
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.csprojResolveAssemblyReference.cache
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.dll
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.pdb
-V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\LMS.Web.UnitTests.dll.config
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\LMS.Domain.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\LMS.Web.dll
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\Moq.dll
@@ -20,3 +17,6 @@ V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\System.Web.Mv
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\Ninject.xml
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\System.Web.Http.Tracing.xml
 V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\bin\Debug\Newtonsoft.Json.xml
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.csprojResolveAssemblyReference.cache
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.dll
+V:\Rakesh\JS-PREP-2016\Projects\Ipagoo\LMS.Web.UnitTests\obj\Debug\LMS.Web.UnitTests.pdb

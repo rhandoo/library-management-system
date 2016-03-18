@@ -4,6 +4,7 @@ using System.Linq;
 using LMS.Domain.Entities;
 using Moq;
 using LMS.Domain.Repositories;
+using System;
 
 namespace LMS.Web.UnitTests
 {
@@ -24,6 +25,26 @@ namespace LMS.Web.UnitTests
             return books;
 
         }
+
+
+        public static IList<Stock> GetStubBookStock()
+        {
+            IList<Stock> books = new List<Stock> {
+                new Stock{ Id =1, BookId=1, Book = GetStubBook(1),StatusId=1 },
+                 new Stock{ Id =2, BookId=2, Book = GetStubBook(2),StatusId=1 },
+                  new Stock{ Id=3, BookId=3, Book = GetStubBook(3),StatusId=2,IssueId=1,Issue = new Issue{IssuedTo="John",IssueDate=DateTime.Now,Id=1} }
+           
+            };
+
+            return books;
+
+        }
+
+        public static Book GetStubBook(int bookId)
+        {
+            return GetStubBooks().First(f => f.Id == bookId);
+        }
+
 
         public static Author GetStubAuthor(int authorId)
         {

@@ -20,9 +20,10 @@ namespace LMS.Web
         {
             Kernal = new StandardKernel();
 
-            // Repository
-
+            // Bindings
+            Kernal.Bind<IIssueDtoBuilder>().To<IssueDtoBuilder>();
             Kernal.Bind<IBookDtoBuilder>().To<BookDtoBuilder>();
+            Kernal.Bind<IStockDtoBuilder>().To<StockDtoBuilder>();
             Kernal.Bind<ILmsSearchDtoBuilder>().To<LmsSearchDtoBuilder>();
             Kernal.Bind<IBookRepository>().To<BookRepository>();
             Kernal.Bind<IStockRepository>().To<StockRepository>();
